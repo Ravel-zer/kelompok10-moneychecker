@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Money Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="background-img">
+    <nav>
+      <div class="nav-container">
+        <div class="nav-section">
+          <img src="Gambar/UMN.png" alt="Logo" id="logo" />
+        </div>
+        <div class="nav-section">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+          </ul>
+        </div>
+        <div class="nav-section">
+          <ul>
+            <li><a href="income.html">Income</a></li>
+          </ul>
+        </div>
+        <div class="nav-section">
+          <ul>
+            <li><a href="outcome.html">Outcome</a></li>
+          </ul>
+        </div>
+        <div class="nav-section">
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>Money Tracker</h1>
+      <table id="transactionTable">
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Option</th>
+          </tr>
+        </thead>
+        <tbody id="displayTransaction">
+          <!-- Transaction items will be dynamically added here -->
+        </tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
