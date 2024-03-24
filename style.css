@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f0f3;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #b6b4ef;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.background-img {
+  background-image: url("Gambar/Kampus-UMN.jpg");
+  background-position: center;
+}
+
+#logo {
+  width: 25px;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: calc(100% - 12px);
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #020300;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #4092f0;
+  color: #000202;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #eb17d9;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-section {
+  flex: 1;
+}
+
+.nav-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-section ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-section ul li:last-child {
+  margin-right: 0;
+}
+
+.nav-section ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+.income {
+  color: green;
+}
+
+.outcome {
+  color: red;
+}
